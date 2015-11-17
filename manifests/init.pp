@@ -1,4 +1,4 @@
-# motd
+# satellite-motd puppet module
 
 class satellite-motd { 
 	# motd.erb file must exist in motd/template folder
