@@ -1,8 +1,8 @@
-This sytem is system is managed by Red Hat Satellite.
-This system is using <%= @operatingsystem %> <%= @operatingsystemrelease %>.        
+Welcome to <%= @fqdn %>
+This system is currently managed by Red Hat Satellite.
+This system is using <%= @operatingsystem %> <%= @operatingsystemrelease %>.
 This system currently has <%= @memoryfree %> of free memory.
-The ip address of this system is: <%= @ipaddress %> and the fqdn is: <%= @fqdn %>.
+The current IP address of this system is: <%= @ipaddress %>.
 <%- if @domain -%>
-This machine is currently part of the domain <%= @domain %>.
+This machine is currently part of the <%= @domain %> domain.
 <%- end -%>
-
